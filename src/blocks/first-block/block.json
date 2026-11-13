@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shena-knit-plugin/first-block",
+	"version": "0.1.0",
+	"title": "First Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shena-knit-plugin",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"viewStyle": "file:./view.css",
+	"render": "file:../../shared/render.php",
+	"attributes": {
+		"startCount": {
+			"type": "number",
+			"default": 0
+		}
+	}
+}

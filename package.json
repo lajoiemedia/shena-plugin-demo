@@ -1,0 +1,32 @@
+{
+	"name": "shena-plugin-demo",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --blocks-manifest",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --blocks-manifest",
+		"env:start": "wp-env start",
+		"env:stop": "wp-env stop",
+		"env:clean": "wp-env clean"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "latest",
+		"@wordpress/blocks": "latest",
+		"@wordpress/i18n": "latest",
+		"react-confetti": "^6.4.0"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^12.1.0",
+		"@wordpress/scripts": "^37.1.0",
+		"javascript-obfuscator": "^5.10.0",
+		"webpack-obfuscator": "^3.6.1"
+	}
+}

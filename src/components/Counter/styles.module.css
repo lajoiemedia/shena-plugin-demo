@@ -1,0 +1,25 @@
+@import "../../shared/styles/_shared";
+
+.counter {
+  display: inline-flex;
+  border: 2px solid #1288f7;
+  align-items: center;
+}
+
+.counter-button {
+  all: unset;
+  padding: 6px 12px;
+  font-family: Arial;
+  background-color: #1288f7;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0f589c;
+  }
+}
+
+.counter-display {
+  padding-inline: 12px;
+}
